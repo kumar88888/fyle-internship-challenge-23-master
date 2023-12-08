@@ -1,43 +1,46 @@
+# Deployed Link : 
+
+https://6572addb62d115467e6a7f0b--super-strudel-efe906.netlify.app/
+
 # Fyle Frontend Challenge
 
-## Who is this for?
 
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
-## Why work at Fyle?
+# Angular Project Setup and Testing
 
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
+This guide provides a step-by-step walkthrough for setting up an Angular project and running tests using the Angular CLI.
 
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
+## Prerequisites
 
-## Challenge outline
+Before you begin, make sure you have the following installed on your machine:
 
-This challenge involves implementing application using github api. 
+- Node.js: [Download Node.js](https://nodejs.org/)
+- npm (Node Package Manager): It comes with Node.js installation.
 
-The services that you need to use are already implemented - check out ApiService.
+## Install Angular CLI
 
-You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
+The Angular CLI is a command-line interface for Angular development. Install it globally on your machine using the following command:
 
-__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
+npm install -g @angular/cli
 
-## What happens next?
-
-You will hear back within 48 hours from us via email.
-
-## Installation
-
-1. Fork this repository to your github account.
-2. Clone the forked repository and proceed with steps mentioned below.
-
-### Install requirements
-* Install angular cli [Ref](https://angular.io/cli)
-* `npm install` in this repository 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests 
 
 ## Further help
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
